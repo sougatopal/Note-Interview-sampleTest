@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="" href="src/styles.css" />
+  </head>
+
+  <body>
+    <div id="app"></div>
+    <!--<div>
+      <input type="text" placeholder="Enter text here" />
+      <button class="blue" id="add">Add</button>
+      <button class="red" id="delete">Delete</button>
+    </div>-->
+    <template id="myTemplate">
+      <div>
+        <input type="text" placeholder="Enter text here" />
+        <button class="blue add" data-action="add" id="add">Add</button>
+        <button class="red delete" data-action="delete" id="delete">
+          Delete
+        </button>
+        <div class="next"></div>
+      </div>
+    </template>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+body {
+  font-family: sans-serif;
+}
+div {
+  padding: 10px;
+}
+.red {
+  background-color: red;
+  color: white;
+}
+.blue {
+  background-color: #fb641b;
+  color: white;
+}
+button {
+  height: 40px;
+  width: 100px;
+  border: none;
+  box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+  margin-left: 10px;
+  font-size: 14px;
+  border-radius: 8px;
+  outline: 0px;
+}
+input {
+  height: 40px;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.next {
+  padding-left: 50px;
+}
